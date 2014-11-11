@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Datepicker </title>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2> Registration Form</h2>
+<div class="main">
+<img src="images/regis.jpg" alt="registration">
+<form action="" method="post">
+Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" name="sname" id="Name"/>
+<br>
+Date Of Birth : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" name="selected_date" id="datepicker"/>
+<br>
+<label>Select Date Format :</label>
+<select id="format">
+<option value="mm/dd/yy">Default - mm/dd/yyyy</option>
+<option value="dd/mm/yy">dd/mm/yyyy</option>
+
+</select>
+<br>
+Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" disabled="disabled" id="age">
+<br>
+<input type="submit" id="submit" value="Submit">
+</form>
+</div>
+</div>
+</body>
+</html>
